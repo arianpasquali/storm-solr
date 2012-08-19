@@ -35,7 +35,7 @@ Your Solr schema.xml could be something like this :
 	 </fields> 
 	
 	
-** Using as a Maven dependency **	
+### Using as a Maven dependency	
 
 	<dependency>
 		<groupId>storm</groupId>
