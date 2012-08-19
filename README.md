@@ -26,13 +26,13 @@ For example, given a tuple value of:
 		{id: 12345, username: "joaopedro", full_name: "João Pedro"}
 
 Would must have these fields declared in your Solr schema.xml. Could be something like this :
-	[...]
+	
 	 <fields>   
 	  <field name="id"      	type="long"   	indexed="true"  stored="true"  multiValued="false" required="true"/>
 	  <field name="full_name"   type="string"   indexed="true"  stored="true"  multiValued="false" /> 
 	  <field name="username"    type="string"   indexed="true"  stored="true"  multiValued="false" /> 
 	 </fields> 
-	[...]
+	
 
 
 
