@@ -21,7 +21,7 @@ import org.apache.solr.client.solrj.SolrServerException;
 public class SimpleSolrBolt extends SolrBolt {
 
 	/**
-	 * @param solrAddress The full URL address where which Solr is running.
+	 * @param solrAddress The full URL address where Solr is running.
 	 */
 	public SimpleSolrBolt(String solrAddress) {
 

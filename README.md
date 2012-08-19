@@ -1,7 +1,7 @@
 Storm Solr Integration
 ===========================
 
-Integrates Storm and Apache Solr by providing a generic and configurable `backtype.storm.Bolt` 
+Integrates [Storm](https://github.com/nathanmarz/storm/) and  [Apache Solr](http://lucene.apache.org/solr/) by providing a generic and configurable `backtype.storm.Bolt` 
 implementation that create Solr indexes based on your Storm `Tuple` objects.
 
 ### Building from Source

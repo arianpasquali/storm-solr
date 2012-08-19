@@ -32,7 +32,7 @@ public abstract class SolrBolt extends BaseRichBolt {
 	private final String solrAddress;
 
 	/**
-	 * @param solrAddress The full URL address where which Solr is running.
+	 * @param solrAddress The full URL address where Solr is running.
 	 */
 	protected SolrBolt(String solrAddress) {
 		this.solrAddress = solrAddress;
