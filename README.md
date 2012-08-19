@@ -34,6 +34,14 @@ Your Solr schema.xml could be something like this :
 	  <field name="username"    type="string"   indexed="true"  stored="true"  multiValued="false" /> 
 	 </fields> 
 	
+	
+** Using as a Maven dependency **	
+
+	<dependency>
+		<groupId>storm</groupId>
+		<artifactId>storm-solr</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</dependency>
 
 
 
