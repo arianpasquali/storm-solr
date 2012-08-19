@@ -19,7 +19,7 @@ The `SimpleSolrBolt` class provides a convenience constructor that takes only th
 The above constructor will create a `SolrBolt` that writes to the "`http://localhost:8983/solr`" Solr instance.
 The idea here is to convert a Tuple into a SolrInputDocument.
 
-For each field in the `backtype.storm.Tuple` received, the `SolrBolt` will write a SolrInputField into a SolrInputDocument.
+For each field in the `backtype.storm.Tuple` received, the `SimpleSolrBolt` will write a SolrInputField into a SolrInputDocument.
 So keep in mind that you must have your tuple fields defined in your solr schema.xml.
 
 For example, given a tuple value of:
