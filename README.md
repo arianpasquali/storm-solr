@@ -4,9 +4,18 @@ Storm Solr Integration
 Integrates [Storm](https://github.com/nathanmarz/storm/) and  [Apache Solr](http://lucene.apache.org/solr/) by providing a generic and configurable `backtype.storm.Bolt` 
 implementation that create Solr indexes based on your Storm `Tuple` objects.
 
-### Building from Source
+### Using as a Maven dependency
 
+** Building from Source **
 		$ mvn install
+		
+** Declare it in your pom.xml **
+
+	<dependency>
+		<groupId>storm</groupId>
+		<artifactId>storm-solr</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</dependency>		
 
 ### Usage
 
@@ -35,16 +44,11 @@ Your Solr schema.xml could be something like this :
 	 </fields> 
 
 **Important note**
+
 For performance reasons SolrBolt is not responsible for committing. 
 I highly recommend leaving this job for Apache Solr. Take a look at [autoCommit](http://wiki.apache.org/solr/SolrConfigXml#Update_Handler_Section) feature.
 	
-### Using as a Maven dependency	
 
-	<dependency>
-		<groupId>storm</groupId>
-		<artifactId>storm-solr</artifactId>
-		<version>1.0-SNAPSHOT</version>
-	</dependency>
 
 
 
