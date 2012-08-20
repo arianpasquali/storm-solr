@@ -33,7 +33,10 @@ Your Solr schema.xml could be something like this :
 	  <field name="full_name"   type="string"   indexed="true"  stored="true"  multiValued="false" /> 
 	  <field name="username"    type="string"   indexed="true"  stored="true"  multiValued="false" /> 
 	 </fields> 
-	
+
+**Important note**
+For performance reasons SolrBolt is not responsible for committing. 
+I highly recommend leaving this job for Apache Solr. Take a look at [autoCommit](http://wiki.apache.org/solr/SolrConfigXml#Update_Handler_Section) feature.
 	
 ### Using as a Maven dependency	
 
