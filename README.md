@@ -6,10 +6,11 @@ implementation that create Solr indexes based on your Storm `Tuple` objects.
 
 ### Using as a Maven dependency
 
-** Building from Source **
+**Building from Source**
+
 		$ mvn install
 		
-** Declare it in your pom.xml **
+**Declare it in your pom.xml**
 
 	<dependency>
 		<groupId>storm</groupId>
