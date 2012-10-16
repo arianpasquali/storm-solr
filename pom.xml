@@ -11,6 +11,11 @@
 
 	<url>http://github.com/arianpasquali/storm-solr</url>
 
+<repository> 
+      <id>clojars</id> 
+      <url>http://clojars.org/repo/</url> 
+    </repository> 
+
 	<dependencies>
 		<dependency>
 			<groupId>storm</groupId>
